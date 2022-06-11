@@ -1,0 +1,82 @@
+.Arrivals{
+padding: 30px;
+}
+.ArrivalTop{
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+.ArrivalTop h1{ 
+color: var(--navyblue);
+font-family: PolySans Bulky;
+
+}
+.Bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.ArrivalMain{
+    /* height: 600px; */
+width: 340px;
+left: 0px;
+top: 0px;
+border-radius: 12px;
+background-color: var(--lightgrey);
+}
+
+.ArrivalSideFilter{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-top: 40px
+}
+.ArrivalSideFilter h6{
+    color: var(--navyblue);
+    font-family: PolySans Bulky;
+
+}
+.ArrivalSideFilter h5{
+    color: var(--navyblue);
+    font-family: PolySans Bulky;
+
+}
+
+.ArrivalSideFilter span{
+    color: var(--blue);
+    /* font-family: PolySans Bulky; */
+    font-family: PolySans Median;
+    cursor: pointer;
+
+}
+
+.ArrivalSideCategories{
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.ArrivalSideCategories h6{
+   text-align: left;
+   color: var(--navyblue);
+    font-family: PolySans Bulky;
+    font-size: 15px;
+    padding-bottom: 20px;
+
+}
+
+.Checkbox{
+    display: flex;
+    /* padding-top: 40px; */
+    padding-left: 48px;
+    padding-bottom: 20px;
+}
+
+.Checkbox h6{
+    /* display: flex; */
+    /* padding-top: 40px; */
+    padding-left: 12px;
+    color: var(--grey);
+    font-family: PolySans Median;
+
+
+}

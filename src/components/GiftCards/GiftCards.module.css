@@ -1,0 +1,54 @@
+.GiftCard {
+  height: 307px;
+  width: 306px;
+  position: relative;
+  left: 15px;
+  top: 16px;
+  border-radius: 8px;
+  padding: 19px 22px 19px 22px;
+  background-color: var(--white);
+}
+.badge {
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.giftcardwrap {
+  padding: 10px 14px;
+  border-radius: 25px;
+  background-color: var(--lightgrey);
+}
+
+.giftcardwrap span {
+  color: var(--grey);
+  font-family: PolySans Median;
+}
+.AmazonCard {
+  display: flex;
+  align-items: center;
+  justify-items: left;
+  padding-bottom: 20px;
+}
+.AmazonCard > .cardImg {
+  border-radius: 5px;
+  padding-right: 10px;
+}
+
+.AmazonText h6 {
+  padding-top: 5px;
+  font-family: PolySans Median;
+}
+
+.AmazonContent span {
+  font-family: PolySans Neutral;
+  color: var(--grey);
+}
+.Fee {
+  justify-items: left;
+  align-items: center;
+  display: flex;
+}
+.Fee span {
+  font-family: PolySans Neutral;
+  color: var(--grey);
+}

@@ -1,0 +1,65 @@
+.Hero {
+  padding: 50px 100px;
+}
+
+.RectBlue {
+  height: 680px;
+  left: 83px;
+  top: 66px;
+  border-radius: 32px;
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../img/Rectangle.png);
+}
+
+.HeroText {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 200px;
+width: 200px; */
+}
+
+.ImageLeft {
+  position: absolute;
+  top: 550px;
+  left: 100px;
+}
+.ImageRight {
+  position: absolute;
+  top: 585px;
+  right: 100px;
+}
+
+.Top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+.Top h1 {
+  font-family: PolySans Bulky;
+  color: var(--white);
+  font-size: 50px;
+}
+
+.Top span {
+  /* padding-top: 2/0px; */
+  font-family: PolySans Median;
+  color: var(--white);
+  text-align: center;
+  /* font-size: 50px; */
+}
+.ShopDiv {
+  background-color: var(--white);
+  padding: 12px 18px;
+  border-radius: 4px;
+  box-shadow: 4px 7px #1890ff99;
+}
+.ShopDiv span {
+  color: var(--blue);
+  font-family: PolySans Median;
+  font-weight: 500;
+  cursor: pointer;
+}

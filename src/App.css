@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+@font-face {
+  font-family: PolySans Bulky;
+  src: url(../public/assets/fonts/PolySans\ Bulky\ Wide.ttf);
+}
+@font-face {
+  font-family: PolySans Median;
+  src: url(../public/assets/fonts/PolySans\ Median.ttf);
+}
+@font-face {
+  font-family: PolySans Neutral;
+  src: url(../public/assets/fonts/PolySans\ Neutral.ttf);
+}
+@font-face {
+  font-family: PolySans Slim;
+  src: url(../public/assets/fonts/PolySans\ Slim.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --blue: #0069E0;
+  --white: #ffffff;
+  --grey: #8A91A8;
+  --navyblue: #000429;
+  --lightgrey: #F3F4F7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul{
+  list-style: none;
+}
+.ant-input-affix-wrapper-lg{
+  border-radius: 10px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-input-affix-wrapper-lg{
+  background-color: var(--lightgrey) !important;
 }
+.ant-input-affix-wrapper > input.ant-input {
+  background-color: var(--lightgrey) !important;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-btn-primary{
+  border-radius: 4px !important;
+  font-family: PolySans Slim !important;
+  background-color: var(--blue) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  /* padding: 10px !important; */
 }

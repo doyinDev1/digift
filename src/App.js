@@ -1,24 +1,34 @@
 import logo from './logo.svg';
+import React, {useContext} from 'react';
 import './App.css';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import PersonalHomePage from './pages/PersonalHomePage/PersonalHomePage'
+import BusinessHomePage from './pages/BusinessHomePage/BusinessHomePage'
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import {DarkModeContext} from './context/DarkModeContext';
+import 'antd/dist/antd.css'
 function App() {
+  // const {darkMode} = useContext(DarkModeContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+
+<Routes>
+<Route exact path="/" element={<PersonalHomePage/>} />
+<Route exact path="/business" element={<BusinessHomePage/>} />
+
+{/* <div className="app">
+      <div 
+      // className={darkMode ? `Container Container-dark` : `Container Container-light`}
+      >
+
+
+      </div>
+    </div> */}
+</Routes>
+
+    </Router>
+ 
   );
 }
 

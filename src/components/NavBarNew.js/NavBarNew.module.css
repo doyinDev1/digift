@@ -1,0 +1,29 @@
+
+.Nav{
+    display: flex;
+    font-family: PolySans Slim;
+    padding: 30px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.NavLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+.NavLinks{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--grey);
+}
+.NavLinks h6{
+    color: var(--grey);
+cursor: pointer;
+}
+.NavList{
+display: flex;
+}
+.Search{
+    padding-right: 10px;
+}
