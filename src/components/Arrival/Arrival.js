@@ -34,11 +34,17 @@ const Arrival = () => {
 
                     </div>
                     <div className={classes.ArrivalMain}>
-                        <GiftCards/>
+                        <GiftCards />
+                        <GiftCards />
+
                     </div>
                     <div className={classes.ArrivalMain}>
+                    <GiftCards />
+                        <GiftCards />
                     </div>
                     <div className={classes.ArrivalMain}>
+                    <GiftCards />
+                        <GiftCards />
                     </div>
 
                 </div>

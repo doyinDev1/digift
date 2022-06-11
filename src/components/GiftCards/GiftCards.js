@@ -5,6 +5,9 @@ import { ExclamationCircleOutlined } from '@ant-design/icons';
 
 const GiftCards = () => {
     return (
+        <div className={classes.GiftMain}> 
+            
+            
         <div className={classes.GiftCard}>
 
             <div className={classes.badge}>
@@ -34,7 +37,6 @@ const GiftCards = () => {
             <hr />
             <div className={classes.Fee}>
                 <>
-
                     <ExclamationCircleOutlined style={{ paddingRight: "10px" }} />
                 </>
                 <>
@@ -43,6 +45,7 @@ const GiftCards = () => {
                 </>
             </div>
         </div>
+            </div>
     )
 }
 

@@ -15,12 +15,13 @@ font-family: PolySans Bulky;
     justify-content: space-around;
 }
 .ArrivalMain{
-    /* height: 600px; */
+    height: auto;
 width: 340px;
 left: 0px;
 top: 0px;
 border-radius: 12px;
 background-color: var(--lightgrey);
+padding-bottom: 10px;
 }
 
 .ArrivalSideFilter{
