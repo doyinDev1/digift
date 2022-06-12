@@ -23,6 +23,7 @@ const GiftCards = () => {
                     <img
                         src={AmazonLogo}
                         alt="giftcard"
+                        style={{borderRadius: "5px"}}
                     />
                 </div>
                 <div className={classes.AmazonText}>
@@ -43,6 +44,9 @@ const GiftCards = () => {
 
                     <span>This card has a fee of $ 0.99</span>
                 </>
+            </div>
+            <div className={classes.Purchase}>
+<span> Purchase Card &gt;</span>
             </div>
         </div>
             </div>

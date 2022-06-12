@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import classes from './Arrival.module.css'
-import { Checkbox } from 'antd';
+import { Checkbox, Button } from 'antd';
 import * as data from '../../data/data'
 import GiftCards from '../GiftCards/GiftCards';
+import { ArrowRightOutlined } from '@ant-design/icons';
+
 const Arrival = () => {
+    const [show, setShow] = useState(0)
+    const [show2, setShow2] = useState(false)
+
+    const handleClick = (e) => {
+        console.log(show, e)
+        setShow(true)
+        setShow2(true)
+        sessionStorage.setItem("opened", "open")
+    }
+    console.log(show, "show va")
     return (
         <>
             <div className={classes.Arrivals}>
@@ -37,18 +49,94 @@ const Arrival = () => {
                         <GiftCards />
                         <GiftCards />
 
+                        {
+                            show === true &&
+                            <>
+
+                                <GiftCards />
+                                <GiftCards />
+                            </>
+
+                        }
                     </div>
                     <div className={classes.ArrivalMain}>
-                    <GiftCards />
                         <GiftCards />
+                        <GiftCards />
+                        {
+                            show === true &&
+                            <>
+
+                                <GiftCards />
+                                <GiftCards />
+                            </>
+
+                        }
+                        
                     </div>
                     <div className={classes.ArrivalMain}>
-                    <GiftCards />
                         <GiftCards />
+                        <GiftCards />
+                        {
+                            show === true &&
+                            (
+                                <>
+                                    <GiftCards />
+                                    <GiftCards />
+                                </>
+                            )
+                        }
                     </div>
 
                 </div>
+
             </div>
+            {
+                show === true ?
+                    (
+                        ""
+                    ) :
+                    <div className={classes.BuutonDiv}>
+                        <div className={classes.ButtonLoad1}>
+</div>                      <div className={classes.ButtonLoad2}>
+</div>                      <div className={classes.ButtonLoad3}>
+
+                            <Button className={classes.Button} onClick={handleClick}>Load more products <ArrowRightOutlined /></Button>
+</div>
+                        <div className={classes.ButtonLoad4}>
+                        </div>
+                    </div>
+            }
+{
+    show2 === true ? 
+    (
+        <div className={classes.BuutonDiv}>
+                        <div className={classes.ButtonLoad1}>
+</div>                      <div className={classes.ButtonLoad2}>
+</div>                      <div className={classes.ButtonLoad3}>
+
+                            <span className={classes.Span} >End of product list </span>
+</div>
+                        <div className={classes.ButtonLoad4}>
+                        </div>
+                    </div>
+    ): ""
+}
+{/* {
+
+JSON.stringify(sessionStorage.getItem("opened")) == "open" ? (
+    <div className={classes.BuutonDiv}>
+    <div className={classes.ButtonLoad1}>
+</div>                      <div className={classes.ButtonLoad2}>
+</div>                      <div className={classes.ButtonLoad3}>
+
+        <span className={classes.Butt}>End of Product list <ArrowRightOutlined /></span>
+</div>
+    <div className={classes.ButtonLoad4}>
+    </div>
+</div>
+): ""
+} */}
+            
         </>
     )
 }

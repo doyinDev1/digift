@@ -1,11 +1,11 @@
 .GiftMain{
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .GiftCard {
-  height: 307px;
-  width: 306px;
-  position: relative;
+  /* height: 307px; */
+  /* width: 306px; */
+  /* position: relative; */
   left: 15px;
   top: 16px;
   border-radius: 8px;
@@ -51,8 +51,23 @@
   justify-items: left;
   align-items: center;
   display: flex;
+  padding-bottom: 15px;
 }
 .Fee span {
   font-family: PolySans Neutral;
   color: var(--grey);
+}
+.Purchase{
+  padding: 10px 40px;
+  background-color: var(--blue);
+  border-radius: 4px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.Purchase span{
+  font-family: PolySans Neutral;
+  text-align: center;
+
 }
