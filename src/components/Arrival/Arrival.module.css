@@ -1,112 +1,91 @@
-.Arrivals{
-padding: 30px;
+.Arrivals {
+  padding: 30px;
 }
-.ArrivalTop{
-    padding-left: 70px;
-    padding-bottom: 50px;
+.ArrivalTop {
+  padding-left: 70px;
+  padding-bottom: 50px;
 }
-.ArrivalTop h1{ 
-color: var(--navyblue);
-font-family: PolySans Bulky;
-
+.ArrivalTop h1 {
+  color: var(--navyblue);
+  font-family: PolySans Bulky;
 }
-.Bottom{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
+.Bottom {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
 }
-.ArrivalMain{
-    height: fit-content;
-position: sticky;
-left: 0px;
-top: 0px;
-border-radius: 12px;
-background-color: var(--lightgrey);
-padding-bottom: 10px;
-}
-
-.ArrivalSideFilter{
-    display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-    padding-top: 40px
-}
-.ArrivalSideFilter h6{
-    color: var(--navyblue);
-    font-family: PolySans Bulky;
-
-}
-.ArrivalSideFilter h5{
-    color: var(--navyblue);
-    font-family: PolySans Bulky;
-
+.ArrivalMain {
+  height: fit-content;
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  border-radius: 12px;
+  background-color: var(--lightgrey);
+  padding-bottom: 10px;
 }
 
-.ArrivalSideFilter span{
-    color: var(--blue);
-    /* font-family: PolySans Bulky; */
-    font-family: PolySans Median;
-    cursor: pointer;
-
+.ArrivalSideFilter {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.ArrivalSideFilter h6 {
+  color: var(--navyblue);
+  font-family: PolySans Bulky;
+}
+.ArrivalSideFilter h5 {
+  color: var(--navyblue);
+  font-family: PolySans Bulky;
 }
 
-.ArrivalSideCategories{
-    display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    padding-top: 30px;
-    padding-left: 50px;
-}
-.ArrivalSideCategories h6{
-   text-align: left;
-   color: var(--navyblue);
-    font-family: PolySans Bulky;
-    font-size: 15px;
-    padding-bottom: 20px;
-
+.ArrivalSideFilter span {
+  color: var(--blue);
+  font-family: PolySans Median;
+  cursor: pointer;
 }
 
-.Checkbox{
-    display: flex;
-    /* padding-top: 40px; */
-    padding-left: 30px;
-    padding-bottom: 20px;
-    padding-right: 15px;
+.ArrivalSideCategories {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.ArrivalSideCategories h6 {
+  text-align: left;
+  color: var(--navyblue);
+  font-family: PolySans Bulky;
+  font-size: 15px;
+  padding-bottom: 20px;
 }
 
-.Checkbox h6{
-    /* display: flex; */
-    /* padding-top: 40px; */
-    padding-left: 12px;
-    color: var(--grey);
-    font-family: PolySans Median;
+.Checkbox {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
 
+.Checkbox h6 {
+  padding-left: 12px;
+  color: var(--grey);
+  font-family: PolySans Median;
+}
+.BuutonDiv {
+  display: grid;
+  padding-bottom: 40px;
+}
 
+.ButtonLoad3 {
+  align-items: left;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
-.BuutonDiv{
-    display: grid;
+.Button {
+  color: var(--grey);
+  font-family: PolySans Median;
+  border-radius: 5px;
 }
-.ButtonLoad{
-    /* display: grid; */
-    /* grid-template-columns: auto auto 1fr auto; */
-}
-.ButtonLoad3{
-    align-items: left;
-    justify-content: center;
-    grid-column-start: 3; 
-    grid-column-end: 4;
-
-}
-.Button{
-    color: var(--grey);
-    font-family: PolySans Median;
-/* padding-right: 50px;   */
-border-radius: 5px;
-}
-.Span{
-    /* background-color: var(--grey); */
-    /* display: none; */
-    color: var(--grey);
-    font-family: PolySans Median;
-padding-right: 50px;
+.Span {
+  color: var(--grey);
+  font-family: PolySans Median;
 }

@@ -1,0 +1,50 @@
+.Customers {
+  padding: 120px 50px;
+}
+
+.CustomersTop {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding-bottom: 80px;
+}
+.CustomersTop h1 {
+  font-family: PolySans Bulky;
+  color: var(--navyblue);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  font-size: 50px;
+}
+
+.Card {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding-bottom: 90px;
+}
+
+.CustomerBottom {
+  border-radius: 32px;
+  background-color: rgba(20, 26, 136, 0.67);
+  background-image: radial-gradient(
+      at 61% 21%,
+      hsla(240, 100%, 51%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 83% 62%, hsla(240, 90%, 48%, 1) 0px, transparent 50%),
+    radial-gradient(at 67% 36%, hsla(240, 100%, 50%, 1) 0px, transparent 50%);
+  box-shadow: 1px 7px #69a9f1;
+
+  padding: 100px 100px;
+}
+.CustomerBottom h1 {
+  color: var(--white);
+  font-family: PolySans Bulky;
+  font-size: 50px;
+}
+.Bottom {
+  background-image: url(../../img//Rectangle.png);
+  border-radius: 32px;
+}

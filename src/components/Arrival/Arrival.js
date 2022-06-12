@@ -71,7 +71,7 @@ const Arrival = () => {
                             </>
 
                         }
-                        
+
                     </div>
                     <div className={classes.ArrivalMain}>
                         <GiftCards />
@@ -96,47 +96,32 @@ const Arrival = () => {
                         ""
                     ) :
                     <div className={classes.BuutonDiv}>
-                        <div className={classes.ButtonLoad1}>
-</div>                      <div className={classes.ButtonLoad2}>
-</div>                      <div className={classes.ButtonLoad3}>
+                        {/* <div className={classes.ButtonLoad1}>
+                        </div> */}
+                                              <div className={classes.ButtonLoad2}>
+                        </div>                      <div className={classes.ButtonLoad3}>
 
                             <Button className={classes.Button} onClick={handleClick}>Load more products <ArrowRightOutlined /></Button>
-</div>
+                        </div>
                         <div className={classes.ButtonLoad4}>
                         </div>
                     </div>
             }
-{
-    show2 === true ? 
-    (
-        <div className={classes.BuutonDiv}>
-                        <div className={classes.ButtonLoad1}>
-</div>                      <div className={classes.ButtonLoad2}>
-</div>                      <div className={classes.ButtonLoad3}>
+            {
+                show2 === true ?
+                    (
+                        <div className={classes.BuutonDiv}>
+                            <div className={classes.ButtonLoad1}>
+                            </div>                      <div className={classes.ButtonLoad2}>
+                            </div>                      <div className={classes.ButtonLoad3}>
 
-                            <span className={classes.Span} >End of product list </span>
-</div>
-                        <div className={classes.ButtonLoad4}>
+                                <span className={classes.Span} >End of product list </span>
+                            </div>
+                            <div className={classes.ButtonLoad4}>
+                            </div>
                         </div>
-                    </div>
-    ): ""
-}
-{/* {
-
-JSON.stringify(sessionStorage.getItem("opened")) == "open" ? (
-    <div className={classes.BuutonDiv}>
-    <div className={classes.ButtonLoad1}>
-</div>                      <div className={classes.ButtonLoad2}>
-</div>                      <div className={classes.ButtonLoad3}>
-
-        <span className={classes.Butt}>End of Product list <ArrowRightOutlined /></span>
-</div>
-    <div className={classes.ButtonLoad4}>
-    </div>
-</div>
-): ""
-} */}
-            
+                    ) : ""
+            }
         </>
     )
 }

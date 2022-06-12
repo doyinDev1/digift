@@ -1,0 +1,22 @@
+.Card {
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 40px 40px 20px 40px;
+  border: 1px solid var(--grey);
+}
+.Card p {
+  color: var(--grey);
+  font-family: PolySans Neutral;
+}
+.Card span {
+  color: var(--navyblue);
+  font-family: PolySans Bulky;
+  font-size: 16px;
+}
+.Profile {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  bottom: -15px;
+  width: 100%;
+}
