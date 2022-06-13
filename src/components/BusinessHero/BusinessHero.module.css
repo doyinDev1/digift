@@ -1,0 +1,49 @@
+.BusinessHero{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.BusinessHeroWrapper{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 100px;
+  padding: 40px 70px 20px 70px;
+}
+.Left{
+  display: flex;
+  align-items: center;
+  
+}
+.Left h1{
+  font-family: PolySans Bulky;
+color: var(--navyblue);
+font-size: 50px;
+}
+.Left > .BusinessText > h1 span{
+color: var(--blue);
+}
+.giftText{
+  font-family: PolySans Neutral;
+color: var(--grey);
+}
+.BusinessButton{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+gap: 20px;
+}
+
+.SvgWrap{
+  position: relative;
+  bottom: 60px;
+  right: 20px;
+}
+
+.Right{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.Right svg{
+  /* display: none; */
+}

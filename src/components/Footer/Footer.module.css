@@ -67,6 +67,7 @@
     grid-column-start: 1;
     grid-column-end: 2;
     width: 100px;
+    height: 100px
 }
 .ArrowImage{
     cursor: pointer;

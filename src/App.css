@@ -1,7 +1,11 @@
-*{
+*,
+*::after,
+*::before{
   box-sizing: border-box;
   margin: 0;
   /* transition: all 0.3s; */
+  scroll-behavior: smooth;
+
 }
 @font-face {
   font-family: PolySans Bulky;
@@ -27,7 +31,9 @@
   --navyblue: #000429;
   --lightgrey: #F3F4F7;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 ul{
   list-style: none;
 }

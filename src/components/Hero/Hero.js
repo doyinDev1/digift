@@ -7,7 +7,7 @@ import { ReactComponent as SpiralLeft } from '../../img/Vector 335.svg';
 
 const Hero = () => {
     return (
-        <div className={classes.Hero}>
+        <div className={classes.Hero} id="hero">
             <div className={classes.RectBlue}>
                 <div>
                     <img

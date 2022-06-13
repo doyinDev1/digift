@@ -16,7 +16,7 @@ const NavBarNew = () => {
   console.log(darkMode)
   return (
 
-    <div className={classes.Nav}>
+    <div className={classes.Nav} id="nav">
       <div
         className={classes.Logo}
 

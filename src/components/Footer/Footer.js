@@ -3,6 +3,7 @@ import classes from './Footer.module.css'
 import DigiftLogo from '../../img/DigiftLogo.png'
 import { FacebookOutlined, InstagramOutlined, LinkedinOutlined, TwitterOutlined, ArrowRightOutlined } from '@ant-design/icons';
 import  Arrow from '../../img/Vector 328.png'
+import { Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <div className={classes.Footer}>
@@ -99,10 +100,12 @@ const Footer = () => {
       </div>
       <div className={classes.Bottom}>
 <div className={classes.Polygon}>
+  <Link to="#nav">
 <img
 className={classes.ArrowImage}
 src={Arrow}
 alt="arrow"/>
+</Link>
 </div>
 <div>
 <div className={classes.FooterText}>

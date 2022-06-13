@@ -1,12 +1,12 @@
 import React from 'react'
+import BusinessHero from '../../components/BusinessHero/BusinessHero';
 import Footer from '../../components/Footer/Footer';
 import NavBarNew from '../../components/NavBarNew/NavBarNew';
 const BusinessHomePage = () => {
   return (
     <div>
-      {/* <NavBarNe */}
       <NavBarNew/>
-      Business
+     <BusinessHero/>
       <Footer/>
     </div>
   )
