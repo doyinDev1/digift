@@ -6,17 +6,19 @@
 }
 
 .Feat {
-  display: grid;
+  display: flex;
   gap: 10px;
 
 }
 
 .FeatureCard {
   /* height: 612.0000729560852px; */
-  /* width: 640.0000762939453px; */
+  /* width: 400.0000762939453px; */
   padding: 50px 0px 0px 50px;
   border-radius: 16px;
   background-color: var(--lightblue);
+  top:0;
+  left: 0;
   /* display: flex; */
   /* grid-template-columns: auto auto auto auto; */
   gap: 10px;
@@ -24,8 +26,8 @@
 
 .FeatureText {
   padding-top: 30px;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  /* grid-column-start: 1;
+  grid-column-end: 2; */
 }
 .FeatureCard h1,
 p {
@@ -38,9 +40,15 @@ p {
 }
 .Left {
   grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 1;
 }
 .Right {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.FeatureImage{
+
+    /* position: relative;
+    left: 60px; */
+
 }

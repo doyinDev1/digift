@@ -81,7 +81,7 @@
   grid-column-end: 3;
 }
 .Button {
-  color: var(--grey);
+  color: var(--grey) !important;
   font-family: PolySans Median;
   border-radius: 5px;
 }

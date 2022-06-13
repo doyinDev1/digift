@@ -13,9 +13,7 @@ const Arrival = () => {
         console.log(show, e)
         setShow(true)
         setShow2(true)
-        sessionStorage.setItem("opened", "open")
     }
-    console.log(show, "show va")
     return (
         <>
             <div className={classes.Arrivals}>
@@ -101,7 +99,7 @@ const Arrival = () => {
                                               <div className={classes.ButtonLoad2}>
                         </div>                      <div className={classes.ButtonLoad3}>
 
-                            <Button className={classes.Button} onClick={handleClick}>Load more products <ArrowRightOutlined /></Button>
+                            <Button type="test" className={classes.Button} onClick={handleClick}>Load more products <ArrowRightOutlined style={{ marginBottom: "15px !important" }} /></Button>
                         </div>
                         <div className={classes.ButtonLoad4}>
                         </div>
