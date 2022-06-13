@@ -28,10 +28,16 @@ const NavBarNew = () => {
       </div>
       <div className={classes.NavLink}>
         <div className={classes.NavLinks}>
-          <h6>Personal &gt;</h6>
+        <Link to="/">
+         <h6>Personal &gt;</h6>
+         
+         </Link> 
         </div>
         <div className={classes.NavLinks}>
-          <h6>Business &gt;</h6>
+         <Link to="/business">
+         <h6>Business &gt;</h6>
+         
+         </Link> 
         </div>
 
       </div>

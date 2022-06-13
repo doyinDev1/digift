@@ -1,0 +1,82 @@
+.Footer {
+  padding: 50px 80px;
+}
+.FooterTop {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.FooterLogo2 {
+  padding-top: 20px;
+}
+.FooterLogo2 span {
+  color: var(--navyblue);
+  font-family: PolySans Median;
+}
+.FooterLogo21 {
+  padding-top: 20px;
+}
+.FooterLogo21 span {
+  color: var(--grey);
+  font-family: PolySans Median;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.FooterText {
+    color: var(--grey);
+    font-family: PolySans Median;
+    /* text-align: center; */
+    align-items: center;
+    cursor: pointer;
+  }
+
+.Socials {
+  display: flex;
+}
+.Icon {
+  padding-top: 30px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: var(--grey);
+  cursor: pointer;
+}
+
+.FooterSecond {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.FooterThird {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.Bottom{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.Polygon{
+    background-image: url(../../img/Polygon\ 1.png);
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100px;
+}
+.ArrowImage{
+    cursor: pointer;
+    position: relative;
+        top: 30px;
+        left: 35px;
+
+}
+
+.Footer > .Bottom > .FooterLogo21{
+padding-top: 0px;
+cursor:none;
+}
