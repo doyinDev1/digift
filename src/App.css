@@ -30,6 +30,8 @@
   --grey: #8A91A8;
   --navyblue: #000429;
   --lightgrey: #F3F4F7;
+  --lightblue:  #C2DDFF;
+
 }
 ::-webkit-scrollbar {
   display: none;

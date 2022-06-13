@@ -1,0 +1,57 @@
+.Merchant{
+    padding: 50px 80px;
+}
+
+.RectBlue {
+    height: 680px;
+    left: 83px;
+    top: 66px;
+    border-radius: 32px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../img/Rectangle.png);
+  }
+
+  .ContainText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ContainText span{
+    color: var(--white);
+    font-size: 20px;
+    font-family: PolySans Median;
+}
+  .ContainText svg{
+    transform: scale(1.9);
+  }
+  .Disk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+.Diskdiv{
+      text-align: center;
+      color: var(--white);
+padding-top: 50px;
+  }
+  .Diskdiv h1{
+    color: var(--white);
+    font-family: PolySans Bulky;
+    font-size: 60px;
+    /* font-weight: 900; */
+  }
+
+  .Diskdiv p{
+    padding-top: 20px;
+    font-family: PolySans Median;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }

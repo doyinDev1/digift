@@ -1,0 +1,46 @@
+.BusinessFeature {
+  padding: 50px 70px;
+  display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 10px; */
+}
+
+.Feat {
+  display: grid;
+  gap: 10px;
+
+}
+
+.FeatureCard {
+  /* height: 612.0000729560852px; */
+  /* width: 640.0000762939453px; */
+  padding: 50px 0px 0px 50px;
+  border-radius: 16px;
+  background-color: var(--lightblue);
+  /* display: flex; */
+  /* grid-template-columns: auto auto auto auto; */
+  gap: 10px;
+}
+
+.FeatureText {
+  padding-top: 30px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.FeatureCard h1,
+p {
+  color: var(--navyblue);
+  font-family: PolySans Bulky;
+}
+
+.FeatureCard span {
+  color: var(--blue);
+}
+.Left {
+  grid-column-start: 1;
+    grid-column-end: 3;
+}
+.Right {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}

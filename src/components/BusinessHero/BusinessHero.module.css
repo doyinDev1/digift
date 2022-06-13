@@ -1,13 +1,14 @@
 .BusinessHero{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+    justify-content: center;
   padding-bottom: 40px;
 }
 
 .BusinessHeroWrapper{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap: 100px;
+  gap: 50px;
   padding: 40px 70px 20px 70px;
 }
 .Left{
