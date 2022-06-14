@@ -94,7 +94,9 @@ cursor:none;
   display: none;
   }
   .Footer{
-   padding: 50px 30px; 
+   padding: 50px 20px; 
   }
-
+  .FooterLogo21 span {
+  text-align: left;
+  }
 }

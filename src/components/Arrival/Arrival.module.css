@@ -97,4 +97,7 @@
       grid-template-columns: auto;
      
   }  
+  .ArrivalTop {
+    padding-left: 0px;
+  }
 }

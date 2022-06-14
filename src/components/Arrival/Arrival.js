@@ -10,7 +10,7 @@ const Arrival = () => {
     const [show2, setShow2] = useState(false)
 
     const handleClick = (e) => {
-        console.log(show, e)
+        // console.log(show, e)
         setShow(true)
         setShow2(true)
     }
