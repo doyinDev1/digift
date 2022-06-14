@@ -2,8 +2,8 @@ import React from 'react'
 import classes from './Footer.module.css'
 import DigiftLogo from '../../img/DigiftLogo.png'
 import { FacebookOutlined, InstagramOutlined, LinkedinOutlined, TwitterOutlined, ArrowRightOutlined } from '@ant-design/icons';
-import  Arrow from '../../img/Vector 328.png'
-import { Link} from 'react-router-dom'
+import Arrow from '../../img/Vector 328.png'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className={classes.Footer}>
@@ -65,57 +65,72 @@ const Footer = () => {
             </div>
           </div>
           <div className={classes.One}>
+
             <div className={classes.FooterLogo2}>
               <span>Products</span>
             </div>
-            <div className={classes.FooterLogo21}>
-              <span>Personal</span>
+
+            <div className={classes.Wrap}>
+              <div className={classes.FooterLogo21}>
+                <span>Personal</span>
+              </div>
             </div>
-            <div className={classes.FooterLogo21}>
-              <span>Business</span>
+            <div className={classes.Wrap}>
+              <div className={classes.FooterLogo21}>
+                <span>Business</span>
+              </div>
             </div>
-            <div className={classes.FooterLogo21}>
-              <span>Vendor</span>
+            <div className={classes.Wrap}>
+              <div className={classes.FooterLogo21}>
+                <span>Vendor</span>
+              </div>
             </div>
           </div>
           <div className={classes.One}>
             <div className={classes.FooterLogo2}>
               <span>Contact</span>
             </div>
-            <div className={classes.FooterLogo21}>
-              <span>Instagram</span>
+            <div className={classes.Wrap}>
+              <div className={classes.FooterLogo21}>
+                <span>Instagram</span>
+              </div>
             </div>
-            <div className={classes.FooterLogo21}>
-              <span>Twitter</span>
+            <div className={classes.Wrap}>
+              <div className={classes.FooterLogo21}>
+                <span>Twitter</span>
+              </div>
             </div>
-            <div className={classes.FooterLogo21}>
-              <span>LinkedIn</span>
+            <div className={classes.Wrap}>
+              <div className={classes.FooterLogo21}>
+                <span>LinkedIn</span>
+              </div>
             </div>
-            <div className={classes.FooterLogo21}>
-              <span>Facebook</span>
+            <div className={classes.Wrap}>
+              <div className={classes.FooterLogo21}>
+                <span>Facebook</span>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
       <div className={classes.Bottom}>
-<div className={classes.Polygon}>
-  <Link to="#nav">
-<img
-className={classes.ArrowImage}
-src={Arrow}
-alt="arrow"/>
-</Link>
-</div>
-<div>
-<div className={classes.FooterText}>
-      <span>The website www.digiftng.com is owned and operated by Blinksky Nigeria Limited, a company duly registered under the Laws of the Federal Republic of Nigeria with RC Number: 1656204. Trademark to all logos of Giftcards are owned by their respective brands and Blinksky Nigeria Limited doesn’t claim ownership of these trademarks. All Giftcards dominated in USD are provided in conjunction with BlinkSky Inc. Users must have valid US account and in some cases a valid US address before purchasing.</span>
-            </div>
-</div>
+        <div className={classes.Polygon}>
+          <Link to="#nav">
+            <img
+              className={classes.ArrowImage}
+              src={Arrow}
+              alt="arrow" />
+          </Link>
+        </div>
+        <div>
+          <div className={classes.FooterText}>
+            <span>The website www.digiftng.com is owned and operated by Blinksky Nigeria Limited, a company duly registered under the Laws of the Federal Republic of Nigeria with RC Number: 1656204. Trademark to all logos of Giftcards are owned by their respective brands and Blinksky Nigeria Limited doesn’t claim ownership of these trademarks. All Giftcards dominated in USD are provided in conjunction with BlinkSky Inc. Users must have valid US account and in some cases a valid US address before purchasing.</span>
+          </div>
+        </div>
       </div>
       <div className={classes.FooterLogo21}>
-      <span>Copyright © 2022 Blinksky Nigeria Limited</span>
-            </div>
+        <span>Copyright © 2022 Blinksky Nigeria Limited</span>
+      </div>
     </div>
   )
 }

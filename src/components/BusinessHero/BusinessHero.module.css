@@ -1,50 +1,45 @@
-.BusinessHero{
+.BusinessHero {
   display: grid;
   grid-template-columns: auto auto;
-    justify-content: center;
+  justify-content: center;
   padding-bottom: 40px;
 }
 
-.BusinessHeroWrapper{
+.BusinessHeroWrapper {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 50px;
   padding: 40px 70px 20px 70px;
 }
-.Left{
+.Left {
   display: flex;
   align-items: center;
-  
 }
-.Left h1{
-  font-family: PolySans Bulky;
-color: var(--navyblue);
-font-size: 50px;
+.Left h1 {
+  font-family: "PolySans Bulky";
+  color: var(--navyblue);
+  font-size: 50px;
 }
-.Left > .BusinessText > h1 span{
-color: var(--blue);
+.Left > .BusinessText > h1 span {
+  color: var(--blue);
 }
-.giftText{
-  font-family: PolySans Neutral;
-color: var(--grey);
+.giftText {
+  font-family: "PolySans Neutral";
+  color: var(--grey);
 }
-.BusinessButton{
+.BusinessButton {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-gap: 20px;
+  gap: 20px;
 }
 
-.SvgWrap{
+.SvgWrap {
   position: relative;
   bottom: 60px;
   right: 20px;
 }
 
-.Right{
+.Right {
   grid-column-start: 3;
   grid-column-end: 5;
-}
-
-.Right svg{
-  /* display: none; */
 }

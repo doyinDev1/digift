@@ -12,12 +12,12 @@ import FeatureCard2 from '../BusinessFeature/FeatureCard2'
 const Feature = () => {
   return (
     <div className={classes.ApiDiv}>
-        <div className={classes.ApiLeft}>
-<FeatureCard/>
-        </div>
-        <div className={classes.ApiRight}>
-      <FeatureCard2/>
-        </div>
+      <div className={classes.ApiLeft}>
+        <FeatureCard />
+      </div>
+      <div className={classes.ApiRight}>
+        <FeatureCard2 />
+      </div>
     </div>
   )
 }

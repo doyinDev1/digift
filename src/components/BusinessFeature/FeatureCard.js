@@ -2,7 +2,6 @@ import React from 'react'
 import classes from './BusinessFeature.module.css'
 import FeatureImage from '../../img/Image.png'
 const FeatureCard = (text) => {
-  console.log(text.text, "dss")
   return (
     <div className={classes.FeatureCard}>
       <div className={classes.FeatureText}>

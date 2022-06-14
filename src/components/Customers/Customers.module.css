@@ -1,5 +1,6 @@
 .Customers {
   padding: 120px 50px;
+  background-color: var(--white);
 }
 
 .CustomersTop {
@@ -9,7 +10,7 @@
   padding-bottom: 80px;
 }
 .CustomersTop h1 {
-  font-family: PolySans Bulky;
+  font-family: "PolySans Bulky";
   color: var(--navyblue);
   grid-column-start: 2;
   grid-column-end: 3;
@@ -41,7 +42,7 @@
 }
 .CustomerBottom h1 {
   color: var(--white);
-  font-family: PolySans Bulky;
+  font-family: "PolySans Bulky";
   font-size: 50px;
 }
 .Bottom {

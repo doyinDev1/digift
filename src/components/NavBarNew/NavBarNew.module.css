@@ -1,54 +1,62 @@
-
-.Nav{
-    display: flex;
-    font-family: PolySans Slim;
-    padding: 30px 10px;
-    align-items: center;
-    justify-content: space-evenly;
+.Nav {
+  display: flex;
+  font-family: "PolySans Slim";
+  padding: 30px 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--white);
 }
-.NavLink{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 40px;
+.NavLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
 }
-.NavLinks{
-    padding-left: 10px;
-    padding-right: 10px;
-    color: var(--grey);
+.NavLinks {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--grey);
 }
-.NavLinks h6{
-    color: var(--grey);
-cursor: pointer;
+.NavLinks h6 {
+  color: var(--grey);
+  cursor: pointer;
 }
-.NavList{
-display: flex;
+.NavList {
+  display: flex;
 }
-.Search{
-    padding-right: 10px;
+.Search {
+  padding-right: 10px;
 }
-.Hamburger{
-    display: none;
+.Hamburger {
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .Nav{
+  .Nav {
+    display: contents;
+    background-color: var(--white);
+  }
+  .NavLink,
+  .NavLinks,
+  .Button,
+  .Search,
+  .Switch {
+    display: none;
+  }
+  .Logo {
+    padding: 10px;
+  }
+  .Hamburger {
     display: unset;
-    }
-    .NavLink, .NavLinks, .Button, .Search,   .Switch{
-        display: none;
-    }
-    .Logo{
-        padding: 10px;
-    }
-    .Hamburger{
-        display: unset;
-        float: right;
-    }
-    .Sear {
-        padding: 10px 0;
-    }
-    .NavLin{
-        padding-top: 10px;
-    }
+    float: right;
+  }
+  .Sear {
+    padding: 10px 0;
+  }
+  .NavLin {
+    padding-top: 10px;
+  }
+  .NavLin h6 {
+    color: var(--grey);
+  }
 }

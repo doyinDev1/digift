@@ -1,11 +1,8 @@
-.GiftMain{
+.GiftMain {
   padding: 20px;
 }
 
 .GiftCard {
-  /* height: 307px; */
-  /* width: 306px; */
-  /* position: relative; */
   left: 15px;
   top: 16px;
   border-radius: 8px;
@@ -25,7 +22,7 @@
 
 .giftcardwrap span {
   color: var(--grey);
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
 }
 .AmazonCard {
   display: flex;
@@ -40,11 +37,11 @@
 
 .AmazonText h6 {
   padding-top: 5px;
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
 }
 
 .AmazonContent span {
-  font-family: PolySans Neutral;
+  font-family: "PolySans Neutral";
   color: var(--grey);
 }
 .Fee {
@@ -54,10 +51,10 @@
   padding-bottom: 15px;
 }
 .Fee span {
-  font-family: PolySans Neutral;
+  font-family: "PolySans Neutral";
   color: var(--grey);
 }
-.Purchase{
+.Purchase {
   padding: 10px 40px;
   background-color: var(--blue);
   border-radius: 4px;
@@ -66,8 +63,7 @@
   justify-content: center;
   cursor: pointer;
 }
-.Purchase span{
-  font-family: PolySans Neutral;
+.Purchase span {
+  font-family: "PolySans Neutral";
   text-align: center;
-
 }

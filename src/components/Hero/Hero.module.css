@@ -1,11 +1,10 @@
 .Hero {
   padding: 50px 100px;
+  background-color: var(--white);
 }
 
 .RectBlue {
   height: 680px;
-  /* left: 83px;
-  top: 66px; */
   padding: 40px;
   border-radius: 32px;
   background-color: var(--blue);
@@ -18,8 +17,6 @@
 .HeroText {
   display: flex;
   flex-direction: column;
-  /* max-width: 200px;
-width: 200px; */
 }
 
 .ImageLeft {
@@ -37,20 +34,17 @@ width: 200px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
 }
 .Top h1 {
-  font-family: PolySans Bulky;
+  font-family: "PolySans Bulky";
   color: var(--white);
   font-size: 50px;
 }
 
 .Top span {
-  /* padding-top: 2/0px; */
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
   color: var(--white);
   text-align: center;
-  /* font-size: 50px; */
 }
 .ShopDiv {
   background-color: var(--white);
@@ -60,7 +54,7 @@ width: 200px; */
 }
 .ShopDiv span {
   color: var(--blue);
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
   font-weight: 500;
   cursor: pointer;
 }

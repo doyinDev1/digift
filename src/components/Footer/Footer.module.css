@@ -1,5 +1,6 @@
 .Footer {
   padding: 50px 80px;
+  background-color: var(--white);
 }
 .FooterTop {
   display: grid;
@@ -25,12 +26,11 @@
   cursor: pointer;
 }
 .FooterText {
-    color: var(--grey);
-    font-family: "PolySans Median";
-    /* text-align: center; */
-    align-items: center;
-    cursor: pointer;
-  }
+  color: var(--grey);
+  font-family: "PolySans Median";
+  align-items: center;
+  cursor: pointer;
+}
 
 .Socials {
   display: flex;
@@ -55,30 +55,30 @@
   grid-column-start: 3;
   grid-column-end: 5;
 }
-.Bottom{
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
+.Bottom {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
 }
-.Polygon{
-    background-image: url(../../img/Polygon\ 1.png);
-    background-repeat: no-repeat;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    width: 100px;
-    height: 100px
+.Polygon {
+  background-image: url(../../img/Polygon\ 1.png);
+  background-repeat: no-repeat;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100px;
+  height: 100px;
 }
-.ArrowImage{
-    cursor: pointer;
-    position: relative;
-    top: 30px;
-    left: 35px;
+.ArrowImage {
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+  left: 35px;
 }
 
-.Footer > .Bottom > .FooterLogo21{
-padding-top: 0px;
-cursor:none;
+.Footer > .Bottom > .FooterLogo21 {
+  padding-top: 0px;
+  cursor: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -87,16 +87,19 @@ cursor:none;
     flex-direction: column;
   }
   .FooterLogo21 {
-  
     display: inline-grid;
   }
-  .Polygon{
-  display: none;
+  .Polygon {
+    display: none;
   }
-  .Footer{
-   padding: 50px 20px; 
+  .Footer {
+    padding: 50px 20px;
   }
   .FooterLogo21 span {
-  text-align: left;
+    text-align: left;
+  }
+  .FooterThird {
+    display: flex;
+    flex-direction: column;
   }
 }

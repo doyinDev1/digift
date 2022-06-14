@@ -7,11 +7,11 @@
 }
 .Card p {
   color: var(--grey);
-  font-family: PolySans Neutral;
+  font-family: "PolySans Neutral";
 }
 .Card span {
   color: var(--navyblue);
-  font-family: PolySans Bulky;
+  font-family: "PolySans Bulky";
   font-size: 16px;
 }
 .Profile {
@@ -22,6 +22,6 @@
 }
 @media only screen and (max-width: 600px) {
   .Profile {
-    grid-template-columns: auto ;
+    grid-template-columns: auto;
   }
 }

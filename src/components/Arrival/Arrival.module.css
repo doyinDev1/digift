@@ -1,5 +1,6 @@
 .Arrivals {
   padding: 30px;
+  background-color: var(--white);
 }
 .ArrivalTop {
   padding-left: 70px;
@@ -31,16 +32,16 @@
 }
 .ArrivalSideFilter h6 {
   color: var(--navyblue);
-  font-family: PolySans Bulky;
+  font-family: "PolySans Bulky";
 }
 .ArrivalSideFilter h5 {
   color: var(--navyblue);
-  font-family: PolySans Bulky;
+  font-family: "PolySans Bulky";
 }
 
 .ArrivalSideFilter span {
   color: var(--blue);
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
   cursor: pointer;
 }
 
@@ -52,7 +53,7 @@
 .ArrivalSideCategories h6 {
   text-align: left;
   color: var(--navyblue);
-  font-family: PolySans Bulky;
+  font-family: "PolySans Bulky";
   font-size: 15px;
   padding-bottom: 20px;
 }
@@ -67,11 +68,12 @@
 .Checkbox h6 {
   padding-left: 12px;
   color: var(--grey);
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
 }
 .BuutonDiv {
   display: grid;
   padding-bottom: 40px;
+  background-color: var(--white);
 }
 
 .ButtonLoad3 {
@@ -82,21 +84,19 @@
 }
 .Button {
   color: var(--grey) !important;
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
   border-radius: 5px;
 }
 .Span {
   color: var(--grey);
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
 }
 
 @media only screen and (max-width: 600px) {
-  .Bottom  {
-     
-      /* display: grid; */
-      grid-template-columns: auto;
-     
-  }  
+  .Bottom {
+    /* display: grid; */
+    grid-template-columns: auto;
+  }
   .ArrivalTop {
     padding-left: 0px;
   }

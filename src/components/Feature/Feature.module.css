@@ -1,47 +1,40 @@
-.ApiDiv{
-    padding: 40px 20px;
-    display: flex;
-    /* grid-template-columns: auto auto; */
-    justify-content: space-evenly;
-    align-items: center;
+.ApiDiv {
+  padding: 40px 20px;
+  display: flex;
+  background-color: var(--white);
+  justify-content: space-evenly;
+  align-items: center;
 }
-.ApiLeft{
-padding: 10px;
-}
-
-.ApiRight{
-   /* padding: 10px;  */
+.ApiLeft {
+  padding: 10px;
 }
 
-.Text h1{
-color: var(--navyblue);
-font-family: "PolySans Bulky";
-font-size: 50px;
+.Text h1 {
+  color: var(--navyblue);
+  font-family: "PolySans Bulky";
+  font-size: 50px;
 }
-.Text span{
-    color: var(--blue);
+.Text span {
+  color: var(--blue);
 }
-.Text p{
-    color: var(--grey);
-    font-family: "PolySans Median";
-}
-.giftText{
-    font-family: PolySans Neutral;
+.Text p {
   color: var(--grey);
-  }
-.Button{
-    display: flex;
-    grid-template-columns: auto auto;
-    gap: 10px;
-    font-family: "PolySans Median";
-
+  font-family: "PolySans Median";
+}
+.giftText {
+  font-family: "PolySans Neutral";
+  color: var(--grey);
+}
+.Button {
+  display: flex;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  font-family: "PolySans Median";
 }
 
 @media only screen and (max-width: 600px) {
-    .ApiDiv{
+  .ApiDiv {
     display: unset;
-    }
+    padding: 0px;
+  }
 }
-/* 
-position: relative;
-left: 46px */

@@ -25,7 +25,7 @@ const BusinessTop = () => {
         </div>
       </div>
       <div className={classes.ApiRight}>
-        <LeftCurveSvg className={classes.svg}  />
+        <LeftCurveSvg className={classes.svg} />
 
         <img
           src={BusinessImg}

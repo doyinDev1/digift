@@ -26,6 +26,8 @@
 
 :root {
   --blue: #0069E0;
+  --blue2: #0069E0;
+
   --white: #ffffff;
   --grey: #8A91A8;
   --navyblue: #000429;
@@ -58,4 +60,8 @@ ul{
   align-items: center !important;
   justify-content: center !important;
   /* padding: 10px !important; */
+}
+
+.offcanvas-body{
+  background-color: var(--white) !important;
 }
