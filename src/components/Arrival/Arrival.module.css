@@ -89,3 +89,12 @@
   color: var(--grey);
   font-family: PolySans Median;
 }
+
+@media only screen and (max-width: 600px) {
+  .Bottom  {
+     
+      /* display: grid; */
+      grid-template-columns: auto;
+     
+  }  
+}

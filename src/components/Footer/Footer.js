@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <div className={classes.FooterLogo2}>
             <div className={classes.FooterLogo21}>
-              <span>Our Privacy Policyㅤ<ArrowRightOutlined /></span>ㅤ
+              <span>Our Privacy Policyㅤ<ArrowRightOutlined /></span>
               <span>Terms and Conditionㅤ<ArrowRightOutlined /></span>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Merchant.module.css'
 import { ReactComponent as Sparkle2 } from '../../img/wide.svg';
-import { ReactComponent as GifSvg } from '../../img/Gif.svg';
+// import { ReactComponent as GifSvg } from '../../img/Gif.svg';
 import { ReactComponent as LineSvg } from '../../img/Vector 337.svg';
 
 import Disk from '../../img/Gif.png'

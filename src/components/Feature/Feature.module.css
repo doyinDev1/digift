@@ -36,3 +36,12 @@ font-size: 50px;
     font-family: "PolySans Median";
 
 }
+
+@media only screen and (max-width: 600px) {
+    .ApiDiv{
+    display: unset;
+    }
+}
+/* 
+position: relative;
+left: 46px */

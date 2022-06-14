@@ -36,3 +36,23 @@ font-size: 50px;
     font-family: "PolySans Median";
 
 }
+.svg{
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ApiDiv{
+    flex-direction: column;
+    }
+    .svg{
+        display: none !important;
+    }
+
+    .Image{
+        width: 360px;
+}
+    
+}

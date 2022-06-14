@@ -21,10 +21,14 @@ const NavBarNew = () => {
         className={classes.Logo}
 
       >
+        < Link to="/">
+        
         <img
           src={DigiftLogo}
           alt="digift"
+          className={classes.Logo}
         />
+        </Link>
       </div>
       <div className={classes.NavLink}>
         <div className={classes.NavLinks}>
@@ -45,7 +49,7 @@ const NavBarNew = () => {
         <Input size="large" placeholder="Find cards anywhere" prefix={<SearchOutlined />} />
 
       </div>
-<div>
+<div className={classes.Switch}>
 
 <Switch
 onClick={handleClick}
@@ -57,10 +61,13 @@ onClick={handleClick}
 <div className={classes.NavLinks}>
           <h6>Login &gt;</h6>
         </div>
+        <div className={classes.Button}>
+
         <Button type="primary">
       Get Startedㅤ
       <ReactLogo />
     </Button>
+        </div>
 
     </div>
 

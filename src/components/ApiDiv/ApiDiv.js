@@ -23,7 +23,9 @@ const ApiDiv = () => {
         <div className={classes.ApiRight}>
 <img 
 src={ApiImg}
-alt="api"/>
+alt="api"
+className={classes.Image}
+/>
         </div>
     </div>
   )

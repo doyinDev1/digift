@@ -12,21 +12,21 @@
 }
 .FooterLogo2 span {
   color: var(--navyblue);
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
 }
 .FooterLogo21 {
   padding-top: 20px;
 }
 .FooterLogo21 span {
   color: var(--grey);
-  font-family: PolySans Median;
+  font-family: "PolySans Median";
   text-align: center;
   align-items: center;
   cursor: pointer;
 }
 .FooterText {
     color: var(--grey);
-    font-family: PolySans Median;
+    font-family: "PolySans Median";
     /* text-align: center; */
     align-items: center;
     cursor: pointer;
@@ -79,4 +79,22 @@
 .Footer > .Bottom > .FooterLogo21{
 padding-top: 0px;
 cursor:none;
+}
+
+@media only screen and (max-width: 600px) {
+  .FooterTop {
+    display: flex;
+    flex-direction: column;
+  }
+  .FooterLogo21 {
+  
+    display: inline-grid;
+  }
+  .Polygon{
+  display: none;
+  }
+  .Footer{
+   padding: 50px 30px; 
+  }
+
 }

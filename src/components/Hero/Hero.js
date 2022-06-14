@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <div className={classes.Hero} id="hero">
             <div className={classes.RectBlue}>
-                <div>
+                <div className={classes.Images}>
                     <img
                         src={AmazonCard}
                         alt="amazon"
@@ -39,7 +39,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className={classes.Images}>
                     <img
                         src={CreditCard}
                         alt="amazon"

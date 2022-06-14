@@ -55,3 +55,24 @@ padding-top: 50px;
     line-height: 20px;
     margin-bottom: 0px;
   }
+  @media only screen and (max-width: 600px) {
+    .Merchant{
+    
+      padding: 11px 30px;
+    }
+    .ContainText span{
+    font-size: 14px;
+    }
+    .Diskdiv h1{
+    font-size: 30px;
+    }
+    .Diskdiv p{
+      font-size: 11px;
+
+    }
+
+.RectBlue {
+  height: 480px;
+  padding: 10px;
+}
+  }

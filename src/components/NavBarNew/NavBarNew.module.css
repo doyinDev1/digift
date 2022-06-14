@@ -27,3 +27,17 @@ display: flex;
 .Search{
     padding-right: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .Nav{
+    display: unset;
+    }
+    .NavLink, .NavLinks, .Button, .Search,   .Switch{
+        display: none;
+    }
+    .Logo{
+        padding: 10px;
+    }
+    
+}

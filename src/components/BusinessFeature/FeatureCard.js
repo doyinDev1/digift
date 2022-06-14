@@ -11,7 +11,8 @@ const FeatureCard = (text) => {
         <div className={classes.FeatureImage}>
           <img
             src={FeatureImage}
-            alt="digift feature" />
+            alt="digift feature"
+            className={classes.Image} />
         </div>
       </div>
     </div>

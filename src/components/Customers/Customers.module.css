@@ -48,3 +48,21 @@
   background-image: url(../../img//Rectangle.png);
   border-radius: 32px;
 }
+
+@media only screen and (max-width: 600px) {
+  .CustomersTop h1 {
+    
+    font-size: 30px;
+  }
+  .Card {
+    padding: 0px 0px 50px 0px;
+    grid-template-columns: auto;
+  }
+  .CustomerBottom {
+    padding: 10px 10px;
+
+  }
+  .CustomerBottom h1 {
+  font-size: 35px;
+  }
+}
