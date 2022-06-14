@@ -27,7 +27,9 @@ display: flex;
 .Search{
     padding-right: 10px;
 }
-
+.Hamburger{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .Nav{
@@ -39,5 +41,14 @@ display: flex;
     .Logo{
         padding: 10px;
     }
-    
+    .Hamburger{
+        display: unset;
+        float: right;
+    }
+    .Sear {
+        padding: 10px 0;
+    }
+    .NavLin{
+        padding-top: 10px;
+    }
 }
